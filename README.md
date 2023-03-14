@@ -30,3 +30,5 @@
 ![t_test_lot2](https://user-images.githubusercontent.com/117749494/225117735-4dde8e69-69ed-4256-9bfd-f74c74027376.png)
 
 ![t_test_lot3](https://user-images.githubusercontent.com/117749494/225117744-ca083557-fc62-495f-a60b-bb6b0bd6690a.png)
+
+## Study Design: MechaCar vs Competition
