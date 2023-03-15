@@ -24,11 +24,13 @@ for MPG vs All Variables we see that there is a slope slightly treding upwards s
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The data provided in our linear regression model provides good insights on th MechaCar prototypes. We now know that vehicle weight and ground clearance gives us good mpg. however, seeing that others have a random variance we can use the data to help with the MechaCar.  Also, if we look at the R-Squared values they are 0.7149 and the adjusted is 0.6825 showing that there is a strong correlation. 
 ## Summary Statistics on Suspension Coils
+#### Total Summary for Suspension Coil
 ![summary_total](https://user-images.githubusercontent.com/117749494/225117629-02bbe623-0ee6-45d3-9dbd-6da0911f278c.png)
 
 
-
+#### Lot 1 - 3 Summary for Suspension Coil
 ![summary_lot](https://user-images.githubusercontent.com/117749494/225117646-7f8d8b48-876a-49f4-a360-e291eb795a3e.png)
+### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 
 ## T-Tests on Suspension Coils
