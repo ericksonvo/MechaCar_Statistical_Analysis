@@ -2,16 +2,17 @@
   In this analysis we are helping the auto company AutosRU on their newest prototype, MechaCar. They are having issues with production and is holding back their manafacturing team. So, we are helping Jeremy at AutoRU to help review the production data to get more information to help the manufacturing team. In order to help the manufacturing team we will perform multiple linear regression analysis to predict the mpg, use summary statistics on PSI of suspension coils, run t-tests to determine if manufacturing lots are different from the mean population. Also design a statistical study against other competitor vehicle brands  vs MechaCar. 
 
 ## Linear Regression to Predict MPG
+### MPG vs Vehicle Length
 ![mpg_vs_vehicle_length](https://user-images.githubusercontent.com/117749494/225117444-823d16de-b0d1-42e0-90fd-c8bd061b6999.png)
-
+### MPG vs VEhicle Weight
 ![mpg_vs_vehicle_weight](https://user-images.githubusercontent.com/117749494/225117453-1a698119-6830-4e69-939d-ea4c39733cd0.png)
-
+### MPG vs Spoiler Angle
 ![mpg_vs_spoiler_angle](https://user-images.githubusercontent.com/117749494/225117466-58e36abb-3997-4534-977d-462cd3239a67.png)
-
+### MPG vs Ground Clearance
 ![mpg_vs_ground_clearance](https://user-images.githubusercontent.com/117749494/225117479-b073c7da-4a92-4915-929a-dc75512a4ecc.png)
-
+### MPG vs AWD
 ![mpg_vs_awd](https://user-images.githubusercontent.com/117749494/225117516-4e294593-1217-4871-adf5-2e428ea7e5fb.png)
-
+## MPG vs All Variables
 ![mpg_vs_all](https://user-images.githubusercontent.com/117749494/225117602-74f07e33-873a-4366-8cf4-3bc59e5c874c.png)
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
   Looking at the linear regression models above we see that ground clearance provided a non-random amount of variance to the mpg values
