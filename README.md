@@ -13,7 +13,12 @@
 ![mpg_vs_awd](https://user-images.githubusercontent.com/117749494/225117516-4e294593-1217-4871-adf5-2e428ea7e5fb.png)
 
 ![mpg_vs_all](https://user-images.githubusercontent.com/117749494/225117602-74f07e33-873a-4366-8cf4-3bc59e5c874c.png)
+### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
+  Looking at the linear regression models above we see that ground clearance provided a non-random amount of variance to the mpg values
 
+### Is the slope of the linear model considered to be zero? Why or why not?
+
+### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 ## Summary Statistics on Suspension Coils
 ![summary_total](https://user-images.githubusercontent.com/117749494/225117629-02bbe623-0ee6-45d3-9dbd-6da0911f278c.png)
 
