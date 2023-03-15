@@ -4,7 +4,7 @@
 ## Linear Regression to Predict MPG
 ### MPG vs Vehicle Length
 ![mpg_vs_vehicle_length](https://user-images.githubusercontent.com/117749494/225117444-823d16de-b0d1-42e0-90fd-c8bd061b6999.png)
-### MPG vs VEhicle Weight
+### MPG vs Vehicle Weight
 ![mpg_vs_vehicle_weight](https://user-images.githubusercontent.com/117749494/225117453-1a698119-6830-4e69-939d-ea4c39733cd0.png)
 ### MPG vs Spoiler Angle
 ![mpg_vs_spoiler_angle](https://user-images.githubusercontent.com/117749494/225117466-58e36abb-3997-4534-977d-462cd3239a67.png)
@@ -15,11 +15,14 @@
 ## MPG vs All Variables
 ![mpg_vs_all](https://user-images.githubusercontent.com/117749494/225117602-74f07e33-873a-4366-8cf4-3bc59e5c874c.png)
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
-  Looking at the linear regression models above we see that ground clearance provided a non-random amount of variance to the mpg values
+Looking at the linear regression models above we see that vehicle length and ground clearance provided a non-random amount of variance
+because if we look at their p-values they were less that 0.05 so its enough evidence to reject our null hypothesis. 
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
-
+The slope of our linear model is not considered to be zero because if it were to be zero we would have a flat line in our graph. However, If we look at the graph
+for MPG vs All Variables we see that there is a slope slightly treding upwards showing that there is a small positive correlation.
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+The data provided in our linear regression model provides good insights on th MechaCar prototypes. We now know that vehicle weight and ground clearance gives us good mpg. however, seeing that others have a random variance we can use the data to help with the MechaCar.  Also, if we look at the R-Squared values they are 0.7149 and the adjusted is 0.6825 showing that there is a strong correlation. 
 ## Summary Statistics on Suspension Coils
 ![summary_total](https://user-images.githubusercontent.com/117749494/225117629-02bbe623-0ee6-45d3-9dbd-6da0911f278c.png)
 
