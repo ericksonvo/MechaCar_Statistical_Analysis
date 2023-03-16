@@ -33,13 +33,20 @@ The data provided in our linear regression model provides good insights on th Me
 When we are looking at the variance for suspension coils for all lots the variance was 62.29356. This shows that it meets the requirement for not exceeding 100 pounds per square inch. However, when we look at the individual lots we see that Lot 1 with a variance of 0.979 and Lot 2 with a variance of 7.469 meets the requirements. But when we look at Lot 3 its variance is 170.286 which exceeds the 100 pounds per square inch. So, as a whole they meet the requirements but when we look at the lots individually Lot 3, needs some work.
 
 ## T-Tests on Suspension Coils
-
+### T-Test on all Lots
 ![t_test_all](https://user-images.githubusercontent.com/117749494/225500905-67775b6f-1c29-456a-9b0d-722ed5346527.png)
-
+### T-Test on Lot 1
 ![t_test_lot1](https://user-images.githubusercontent.com/117749494/225117729-d1532cbb-2272-4234-9564-ab111e59f6bf.png)
-
+### T-Test on Lot 2
 ![t_test_lot2](https://user-images.githubusercontent.com/117749494/225117735-4dde8e69-69ed-4256-9bfd-f74c74027376.png)
-
+### T-Test on Lot 3
 ![t_test_lot3](https://user-images.githubusercontent.com/117749494/225117744-ca083557-fc62-495f-a60b-bb6b0bd6690a.png)
-### test
+### Are all manufacturing lots and each lot individually statistically different from the population mean of 1,500 pounds per square inch?
+Our null hypothesis asks if all or each individual lots are statistically same from the population mean of 1,500lbs per square inch. 
+
+Our alternate hypothese will ask if all or each individual lot are statistically differet from the population mean of 1,500lbs per square inch. 
+
+When we look at the first  graph we see that the p-value=0.06028, The second graph for Lot 1 shows p-value = 1.0 and the third graph for Lot 2 shows p-vaule = 0.6072. Since these  p-value's are greater than 0.05, we can say that they are statistically the same and we do not reject th null. 
+
+However, the fourth graph with displays Lot 3, has a p-value = 0.04168. Since this is lower than our target p-value 0.05, we can reject our null hypothese and say that Lot 3 is significantlly different. 
 ## Study Design: MechaCar vs Competition
