@@ -54,6 +54,7 @@ However, the fourth graph with displays Lot 3, has a p-value = 0.04168. Since th
 When we compare MechaCar against other competetitor brands. We want to look at how fuel effcient our cars can be vs other brands by comparing our 4 cylinder and 6 cylinder cars. 
 
 H0: Our 4 and 6 cylinder cars have no difference in fuel efficiency than competitors.
+
 Ha: Our 4 and 6 cylinder cars have a difference in fuel efficiency than competitors.
 
 we can use a t-test to test our hypothesis by comparing our cars and how much miles each get with a full gallon of tank. 
